@@ -1,0 +1,23 @@
+{% include "header.html" %}
+  
+    <!-- Main Context -->
+    <div id="head_content">
+        <div id="head-mid">
+            <h1>Autonomous Agents</h1>
+            <div class="line"></div>
+            <div class="buttons-container">
+                <button id="runAgentsBtn" class="btn btn-custom" onclick="scrollToMessage()">Run Agents</button>
+                <button id="stopAgentsBtn" class="btn btn-custom">Stop Agents</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Message container -->
+    <div class="message-container-wrapper">
+            <h3 id="message-header">Display Hello Messages</h3>
+            <div class="line"></div>
+            <div id="logMessages"></div>
+            <div class="line"></div>
+    </div>
+
+{% include "footer.html" %}

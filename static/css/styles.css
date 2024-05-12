@@ -1,0 +1,155 @@
+/* static/css/styles.css */
+
+body {
+    font-family: 'Constantania', serif;
+    margin: 0; 
+    position: relative; /* Ensure: relative positioning for overlay */
+    background-color: rgba(233, 233, 222, 0.807);
+}
+
+#head_content {
+    background-image: url('../images/bg1.jpg');
+    background-size: cover; /* Cover: the entire div */
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh; /* Set: initial height to 80% of viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Ensure: relative positioning for overlay */
+    color: rgb(244, 238, 238);
+}
+
+.message-container-wrapper {
+    padding: 0 22%;
+    background-color: rgba(233, 233, 222, 0.807);
+}
+
+#message-header {
+    padding: 2% 0% 0% 0%;
+    text-align: center;
+    color: black;
+}
+
+#logMessages {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: rgb(230, 189, 136);
+    padding: 0% 2%;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.line {
+    width: 50%;
+    border-top: 1px solid rgb(120, 211, 30);
+    border-bottom: 2px solid rgb(120, 211, 30);
+    margin: 5% 25%;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 3% 3%;
+}
+
+/* Navbar: customization */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+} 
+
+.navbar-nav .nav-link {
+    color: rgb(102, 226, 195) !important; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #D7405D !important; 
+}
+
+#navbar-brand {
+    color:#D7405D;
+}
+
+#navbar-brand:hover {
+    font-family: cursive;
+    color: rgb(102, 226, 195);
+}
+
+#site-title {
+    font-size: 2.5rem;
+}
+
+#tagline {
+    font-size: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 1.5% 3%;
+    font-size: 1.6vw;
+    border: none;
+    border-radius: 1%;
+    background-color: #ca2121;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#head-mid {
+    background-color: rgba(0, 0, 0, 0.6); /* Black: color with 60% transparency */
+    padding: 2.5% 5%;
+} 
+
+.btn-custom {
+    /* Define: custom button styles */
+    background-color: rgba(0, 0, 0, 0.65);
+    color: rgb(102, 226, 195);
+    border: 2px solid rgb(102, 226, 195);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-color: #D7405D;
+    color: #D7405D;
+}
+
+/* Added: styles for disabled buttons */
+.btn-custom:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #D7405D;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #D7405D;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.footer:hover {
+    font-family: cursive; 
+    color: rgb(102, 226, 195);
+}

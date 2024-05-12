@@ -1,0 +1,15 @@
+        <!-- Footer -->
+        <div class="footer" id="footer_element">
+            &copy; 2024 GauravChandSingh @garvneo
+        </div>
+
+        <!-- Script -->
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+        <script>
+            function scrollToMessage() {
+                var messageHeader = document.getElementById("footer_element");
+                messageHeader.scrollIntoView({ behavior: "smooth" });
+            }
+        </script>
+    </body>
+</html>
