@@ -1,8 +1,9 @@
 # Autonomous Agents (an Asynchronous Web App)
 
 - This project is an upgraded version of project **[async-autonomous-agent-basic.](https://github.com/garvneo/autonomous-agent-basic/pull/1)**
-- This project demonstrates the implementation of asynchronous handling of communication and behaviour of autonomous agents using **asyncio, Quart(official async implementation of Flask)**, a Python web framework, for the backend, and HTML, CSS, and JavaScript for the frontend, utilizes **Docker for containerization and Hypercorn as ASGI for deployment on production server**. Also this project is live on internet.
-- **Autonomous Agents Web App's: [live site](https://autonomous-agents.onrender.com/)**
+- This project demonstrates the implementation of asynchronous handling of communication and behaviour of autonomous agents using **asyncio, Quart(official async implementation of Flask)**, a Python web framework, for the backend, and HTML, CSS, and JavaScript for the frontend, utilizes **Docker for containerization and Hypercorn as ASGI for deployment on production server**. 
+- **[Also this project is live on internet.](https://autonomous-agents.onrender.com/)**
+
 ![upgraded-autonomous-agent](https://github.com/garvneo/autonomous-agents/assets/97349044/9e09072d-c394-4458-90df-1fcc750d7728)
 
 ## Tech Stack
