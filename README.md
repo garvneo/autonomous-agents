@@ -29,8 +29,8 @@
 - Later I wanted to upgrade this whole project and thought to trigger and handle all this behaviour via API calls incorporated in a web app and publish it on internet.
 - **Followed MVC Architecture** to implement the upgrade.
 - Utilized the benefit of modularity of previous basic build and started scaling the project on top of it.
-- Usually Flask is the goto option for me for APIs but it is mostly used for synchronous programming and our's problem was to handle asynchronous calls, hence I went ahed and picked **[Quart](https://palletsprojects.com/p/quart/)** which is another very good offering by **[Pallets Projects](https://palletsprojects.com/)** beside from Flask, hence a great appreciation to them for this.
-- So now I had Quart which can handle asynchronous programming and with this I made the 'app.py'.
+- Usually Flask is the goto option for me for APIs but it is mostly used for synchronous programming and here the problem was to handle asynchronous calls, hence I opted **[Quart](https://palletsprojects.com/p/quart/)** which is another very good offering by **[Pallets Projects](https://palletsprojects.com/)** aside from Flask, so a great appreciation to them for this.
+- Made the 'app.py' using Quart.
 - Once API app was done, I went ahead and created the templates and static js and css code for UI part.
 - After UI, implemented docker for containerization.
 - Implemeted [Hypercorn](https://pypi.org/project/Hypercorn/) as Asynchronous Server Gateway Interface for production deployment.
